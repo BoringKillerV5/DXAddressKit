@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
     s.name         = "DXAddressKit" # 项目名称
-    s.version      = "0.0.5"        # 版本号 与 你仓库的 标签号 对应
+    s.version      = "0.0.6"        # 版本号 与 你仓库的 标签号 对应
     s.license      = "MIT"          # 开源证书
     s.summary      = "得贤高德地图" # 项目简介
     s.swift_version = '4.2'
-    s.homepage     = "https://github.com/dongcantl/DXAddressCocoapods.git" # 仓库的主页
-    s.source       = { :git => "https://github.com/dongcantl/DXAddressCocoapods.git", :tag => "#{s.version}" }#你的仓库地址，不能用SSH地址
+    s.homepage     = "https://github.com/BoringKillerV5/DXAddressKit.git" # 仓库的主页
+    s.source       = { :git => "https://github.com/BoringKillerV5/DXAddressKit.git", :tag => "#{s.version}" }#你的仓库地址，不能用SSH地址
     s.source_files = 'DXAddressKit/Classes/**/*.{h,m}','DXAddressKit/*.{h,m}'
     s.public_header_files = 'DXAddressKit/**/*.h'
 

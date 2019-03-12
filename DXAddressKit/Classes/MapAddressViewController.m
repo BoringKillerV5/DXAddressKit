@@ -8,7 +8,7 @@
 
 #import "MapAddressViewController.h"
 #import "AddressTitleTableViewCell.h"
-#import "UIView+Common.h"
+//#import "UIView+Common.h"
 #import "UIScrollView+EmptyDataSet.h"
 #import <AMapNaviKit/AMapNaviKit.h>
 #import <AMapLocationKit/AMapLocationKit.h>
@@ -220,13 +220,13 @@
     UIImageView *image = [[UIImageView alloc] initWithFrame:CGRectMake((UIScreen.mainScreen.bounds.size.width-130)/2, -200, 130, 130/13*16)];
     image.image = [UIImage imageNamed:@"吉祥物"];
     [view addSubview:image];
-    UILabel * title = [[UILabel alloc] initWithFrame:CGRectMake(0, image.bottom+30, UIScreen.mainScreen.bounds.size.width, 20)];
+    UILabel * title = [[UILabel alloc] initWithFrame:CGRectMake(0, image.frame.origin.y+30, UIScreen.mainScreen.bounds.size.width, 20)];
     title.text = @"暂未找到地址";
     title.textColor = [UIColor grayColor];
     title.font = [UIFont systemFontOfSize:18];
     title.textAlignment = NSTextAlignmentCenter;
     [view addSubview:title];
-    UILabel * title2 = [[UILabel alloc] initWithFrame:CGRectMake(0, title.bottom+20, UIScreen.mainScreen.bounds.size.width, 20)];
+    UILabel * title2 = [[UILabel alloc] initWithFrame:CGRectMake(0, title.frame.origin.y+20, UIScreen.mainScreen.bounds.size.width, 20)];
     title2.text = @"您可以试试其他的地址";
     title2.textColor = [UIColor grayColor];
     title2.font = [UIFont systemFontOfSize:16];
