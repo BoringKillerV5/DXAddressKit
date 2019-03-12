@@ -7,13 +7,63 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		55BD8031F624C042D6CE0637 /* libPods-DXAddressKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D04FE5727AFBAE85DC8B078 /* libPods-DXAddressKit.a */; };
 		9D0F57002237463E00145672 /* DXAddressKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D0F56FE2237463E00145672 /* DXAddressKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D0F57072237466000145672 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 9D0F57062237466000145672 /* Podfile */; };
+		9D0F57092237481700145672 /* DXAddressKit.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 9D0F57082237481700145672 /* DXAddressKit.podspec */; };
+		9D0F570F2237499500145672 /* MapAddressViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D0F570D2237499400145672 /* MapAddressViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D0F57102237499500145672 /* MapAddressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0F570E2237499400145672 /* MapAddressViewController.m */; };
+		9D0F5712223749A200145672 /* MapAddressViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D0F5711223749A200145672 /* MapAddressViewController.xib */; };
+		9D0F571522374A0B00145672 /* AddressTitleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0F571322374A0A00145672 /* AddressTitleTableViewCell.m */; };
+		9D0F571622374A0B00145672 /* AddressTitleTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D0F571422374A0B00145672 /* AddressTitleTableViewCell.h */; };
+		9D0F571822374A1000145672 /* AddressTitleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D0F571722374A1000145672 /* AddressTitleTableViewCell.xib */; };
+		9D0F571C22374ADC00145672 /* UIScrollView+EmptyDataSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0F571A22374ADB00145672 /* UIScrollView+EmptyDataSet.m */; };
+		9D0F571D22374ADC00145672 /* UIScrollView+EmptyDataSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D0F571B22374ADC00145672 /* UIScrollView+EmptyDataSet.h */; };
+		9D0F571F22374AF800145672 /* DeXianDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D0F571E22374AF800145672 /* DeXianDefine.h */; };
+		9D0F572222374B0C00145672 /* UIView+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0F572022374B0C00145672 /* UIView+Common.m */; };
+		9D0F572322374B0C00145672 /* UIView+Common.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D0F572122374B0C00145672 /* UIView+Common.h */; };
+		9D0F572722374CE800145672 /* map_pin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D0F572522374CE800145672 /* map_pin@2x.png */; };
+		9D0F572822374CE800145672 /* map_pin@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D0F572622374CE800145672 /* map_pin@3x.png */; };
+		9D0F572A22374DBD00145672 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D0F572922374DBD00145672 /* SystemConfiguration.framework */; };
+		9D0F572C22374DC700145672 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D0F572B22374DC700145672 /* libz.tbd */; };
+		9D0F572E22374DD500145672 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D0F572D22374DD400145672 /* CoreLocation.framework */; };
+		9D0F573022374DE500145672 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D0F572F22374DE500145672 /* libc++.tbd */; };
+		9D0F573222374DF100145672 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D0F573122374DF100145672 /* Security.framework */; };
+		9D0F573422374DFC00145672 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D0F573322374DFC00145672 /* CoreTelephony.framework */; };
+		9D0F573622374E0600145672 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D0F573522374E0600145672 /* GLKit.framework */; };
+		9D0F573822374E6800145672 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D0F573722374E6800145672 /* CoreGraphics.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		24D70F0449AF1B57A5C699C6 /* Pods-DXAddressKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DXAddressKit.release.xcconfig"; path = "Target Support Files/Pods-DXAddressKit/Pods-DXAddressKit.release.xcconfig"; sourceTree = "<group>"; };
+		3AD23953159AC7A64BF23DD8 /* Pods-DXAddressKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DXAddressKit.debug.xcconfig"; path = "Target Support Files/Pods-DXAddressKit/Pods-DXAddressKit.debug.xcconfig"; sourceTree = "<group>"; };
+		9D04FE5727AFBAE85DC8B078 /* libPods-DXAddressKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DXAddressKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D0F56FB2237463E00145672 /* DXAddressKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DXAddressKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D0F56FE2237463E00145672 /* DXAddressKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DXAddressKit.h; sourceTree = "<group>"; };
 		9D0F56FF2237463E00145672 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D0F57062237466000145672 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		9D0F57082237481700145672 /* DXAddressKit.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = DXAddressKit.podspec; sourceTree = "<group>"; };
+		9D0F570D2237499400145672 /* MapAddressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapAddressViewController.h; sourceTree = "<group>"; };
+		9D0F570E2237499400145672 /* MapAddressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapAddressViewController.m; sourceTree = "<group>"; };
+		9D0F5711223749A200145672 /* MapAddressViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapAddressViewController.xib; sourceTree = "<group>"; };
+		9D0F571322374A0A00145672 /* AddressTitleTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressTitleTableViewCell.m; sourceTree = "<group>"; };
+		9D0F571422374A0B00145672 /* AddressTitleTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressTitleTableViewCell.h; sourceTree = "<group>"; };
+		9D0F571722374A1000145672 /* AddressTitleTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddressTitleTableViewCell.xib; sourceTree = "<group>"; };
+		9D0F571A22374ADB00145672 /* UIScrollView+EmptyDataSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+EmptyDataSet.m"; sourceTree = "<group>"; };
+		9D0F571B22374ADC00145672 /* UIScrollView+EmptyDataSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+EmptyDataSet.h"; sourceTree = "<group>"; };
+		9D0F571E22374AF800145672 /* DeXianDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeXianDefine.h; sourceTree = "<group>"; };
+		9D0F572022374B0C00145672 /* UIView+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Common.m"; sourceTree = "<group>"; };
+		9D0F572122374B0C00145672 /* UIView+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Common.h"; sourceTree = "<group>"; };
+		9D0F572522374CE800145672 /* map_pin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map_pin@2x.png"; sourceTree = "<group>"; };
+		9D0F572622374CE800145672 /* map_pin@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map_pin@3x.png"; sourceTree = "<group>"; };
+		9D0F572922374DBD00145672 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		9D0F572B22374DC700145672 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		9D0F572D22374DD400145672 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		9D0F572F22374DE500145672 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		9D0F573122374DF100145672 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		9D0F573322374DFC00145672 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		9D0F573522374E0600145672 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		9D0F573722374E6800145672 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -21,17 +71,46 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D0F573822374E6800145672 /* CoreGraphics.framework in Frameworks */,
+				9D0F573622374E0600145672 /* GLKit.framework in Frameworks */,
+				9D0F573422374DFC00145672 /* CoreTelephony.framework in Frameworks */,
+				9D0F573222374DF100145672 /* Security.framework in Frameworks */,
+				9D0F573022374DE500145672 /* libc++.tbd in Frameworks */,
+				9D0F572E22374DD500145672 /* CoreLocation.framework in Frameworks */,
+				9D0F572C22374DC700145672 /* libz.tbd in Frameworks */,
+				9D0F572A22374DBD00145672 /* SystemConfiguration.framework in Frameworks */,
+				55BD8031F624C042D6CE0637 /* libPods-DXAddressKit.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6AF09041CD9BB2F0BE741BAF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D0F573722374E6800145672 /* CoreGraphics.framework */,
+				9D0F573522374E0600145672 /* GLKit.framework */,
+				9D0F573322374DFC00145672 /* CoreTelephony.framework */,
+				9D0F573122374DF100145672 /* Security.framework */,
+				9D0F572F22374DE500145672 /* libc++.tbd */,
+				9D0F572D22374DD400145672 /* CoreLocation.framework */,
+				9D0F572B22374DC700145672 /* libz.tbd */,
+				9D0F572922374DBD00145672 /* SystemConfiguration.framework */,
+				9D04FE5727AFBAE85DC8B078 /* libPods-DXAddressKit.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9D0F56F12237463E00145672 = {
 			isa = PBXGroup;
 			children = (
+				9D0F57082237481700145672 /* DXAddressKit.podspec */,
+				9D0F57062237466000145672 /* Podfile */,
 				9D0F56FD2237463E00145672 /* DXAddressKit */,
 				9D0F56FC2237463E00145672 /* Products */,
+				ABF30D7EACE54369B000277A /* Pods */,
+				6AF09041CD9BB2F0BE741BAF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -46,10 +125,64 @@
 		9D0F56FD2237463E00145672 /* DXAddressKit */ = {
 			isa = PBXGroup;
 			children = (
+				9D0F570B2237496800145672 /* Assets */,
+				9D0F570A223748DC00145672 /* Classes */,
 				9D0F56FE2237463E00145672 /* DXAddressKit.h */,
 				9D0F56FF2237463E00145672 /* Info.plist */,
 			);
 			path = DXAddressKit;
+			sourceTree = "<group>";
+		};
+		9D0F570A223748DC00145672 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9D0F571922374ACE00145672 /* Other */,
+				9D0F571422374A0B00145672 /* AddressTitleTableViewCell.h */,
+				9D0F571322374A0A00145672 /* AddressTitleTableViewCell.m */,
+				9D0F570D2237499400145672 /* MapAddressViewController.h */,
+				9D0F570E2237499400145672 /* MapAddressViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		9D0F570B2237496800145672 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				9D0F572522374CE800145672 /* map_pin@2x.png */,
+				9D0F572622374CE800145672 /* map_pin@3x.png */,
+				9D0F570C2237497700145672 /* xib */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		9D0F570C2237497700145672 /* xib */ = {
+			isa = PBXGroup;
+			children = (
+				9D0F571722374A1000145672 /* AddressTitleTableViewCell.xib */,
+				9D0F5711223749A200145672 /* MapAddressViewController.xib */,
+			);
+			path = xib;
+			sourceTree = "<group>";
+		};
+		9D0F571922374ACE00145672 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				9D0F572122374B0C00145672 /* UIView+Common.h */,
+				9D0F572022374B0C00145672 /* UIView+Common.m */,
+				9D0F571E22374AF800145672 /* DeXianDefine.h */,
+				9D0F571B22374ADC00145672 /* UIScrollView+EmptyDataSet.h */,
+				9D0F571A22374ADB00145672 /* UIScrollView+EmptyDataSet.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		ABF30D7EACE54369B000277A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3AD23953159AC7A64BF23DD8 /* Pods-DXAddressKit.debug.xcconfig */,
+				24D70F0449AF1B57A5C699C6 /* Pods-DXAddressKit.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -60,6 +193,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D0F57002237463E00145672 /* DXAddressKit.h in Headers */,
+				9D0F570F2237499500145672 /* MapAddressViewController.h in Headers */,
+				9D0F571D22374ADC00145672 /* UIScrollView+EmptyDataSet.h in Headers */,
+				9D0F571622374A0B00145672 /* AddressTitleTableViewCell.h in Headers */,
+				9D0F571F22374AF800145672 /* DeXianDefine.h in Headers */,
+				9D0F572322374B0C00145672 /* UIView+Common.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,10 +208,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9D0F57032237463E00145672 /* Build configuration list for PBXNativeTarget "DXAddressKit" */;
 			buildPhases = (
+				24EB677AE26E7CF7A7A88E9E /* [CP] Check Pods Manifest.lock */,
 				9D0F56F62237463E00145672 /* Headers */,
 				9D0F56F72237463E00145672 /* Sources */,
 				9D0F56F82237463E00145672 /* Frameworks */,
 				9D0F56F92237463E00145672 /* Resources */,
+				B6D65DE0356268C8EED2ABE1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,16 +260,75 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D0F5712223749A200145672 /* MapAddressViewController.xib in Resources */,
+				9D0F571822374A1000145672 /* AddressTitleTableViewCell.xib in Resources */,
+				9D0F572822374CE800145672 /* map_pin@3x.png in Resources */,
+				9D0F572722374CE800145672 /* map_pin@2x.png in Resources */,
+				9D0F57092237481700145672 /* DXAddressKit.podspec in Resources */,
+				9D0F57072237466000145672 /* Podfile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24EB677AE26E7CF7A7A88E9E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DXAddressKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6D65DE0356268C8EED2ABE1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DXAddressKit/Pods-DXAddressKit-resources.sh",
+				"${PODS_ROOT}/AMap3DMap-NO-IDFA/MAMapKit.framework/AMap.bundle",
+				"${PODS_ROOT}/AMapNavi-NO-IDFA/AMapNaviKit.framework/AMapNavi.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AMap.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AMapNavi.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DXAddressKit/Pods-DXAddressKit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9D0F56F72237463E00145672 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D0F57102237499500145672 /* MapAddressViewController.m in Sources */,
+				9D0F571C22374ADC00145672 /* UIScrollView+EmptyDataSet.m in Sources */,
+				9D0F571522374A0B00145672 /* AddressTitleTableViewCell.m in Sources */,
+				9D0F572222374B0C00145672 /* UIView+Common.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +459,7 @@
 		};
 		9D0F57042237463E00145672 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AD23953159AC7A64BF23DD8 /* Pods-DXAddressKit.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -274,6 +474,10 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.dongcan.huanxin.DXAddressKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -284,6 +488,7 @@
 		};
 		9D0F57052237463E00145672 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24D70F0449AF1B57A5C699C6 /* Pods-DXAddressKit.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -297,6 +502,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.dongcan.huanxin.DXAddressKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
