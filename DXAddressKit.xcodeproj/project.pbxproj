@@ -41,7 +41,7 @@
 		9D0F56FB2237463E00145672 /* DXAddressKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DXAddressKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D0F56FE2237463E00145672 /* DXAddressKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DXAddressKit.h; sourceTree = "<group>"; };
 		9D0F56FF2237463E00145672 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9D0F57062237466000145672 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		9D0F57062237466000145672 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9D0F57082237481700145672 /* DXAddressKit.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = DXAddressKit.podspec; sourceTree = "<group>"; };
 		9D0F570D2237499400145672 /* MapAddressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapAddressViewController.h; sourceTree = "<group>"; };
 		9D0F570E2237499400145672 /* MapAddressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapAddressViewController.m; sourceTree = "<group>"; };
@@ -150,18 +150,10 @@
 			children = (
 				9D0F572522374CE800145672 /* map_pin@2x.png */,
 				9D0F572622374CE800145672 /* map_pin@3x.png */,
-				9D0F570C2237497700145672 /* xib */,
-			);
-			path = Assets;
-			sourceTree = "<group>";
-		};
-		9D0F570C2237497700145672 /* xib */ = {
-			isa = PBXGroup;
-			children = (
 				9D0F571722374A1000145672 /* AddressTitleTableViewCell.xib */,
 				9D0F5711223749A200145672 /* MapAddressViewController.xib */,
 			);
-			path = xib;
+			path = Assets;
 			sourceTree = "<group>";
 		};
 		9D0F571922374ACE00145672 /* Other */ = {

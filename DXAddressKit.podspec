@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = "DXAddressKit" # 项目名称
-    s.version      = "0.0.1"        # 版本号 与 你仓库的 标签号 对应
+    s.version      = "0.0.2"        # 版本号 与 你仓库的 标签号 对应
     s.license      = "MIT"          # 开源证书
     s.summary      = "得贤高德地图" # 项目简介
     s.swift_version = '4.2'
@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
     # 你代码的位置， BYPhoneNumTF/*.{h,m} 表示 BYPhoneNumTF 文件夹下所有的.h和.m文件
     s.platform     = :ios, "9.0" #平台及支持的最低版本
     s.frameworks = 'CoreGraphics', 'CoreLocation', 'CoreTelephony', 'GLKit', 'Security', 'SystemConfiguration'
-    # s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES'}
+    s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES'}
 
     s.dependency 'AMap3DMap-NO-IDFA'
     s.dependency 'AMapSearch-NO-IDFA'
