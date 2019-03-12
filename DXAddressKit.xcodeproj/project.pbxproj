@@ -148,10 +148,9 @@
 		9D0F570B2237496800145672 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				9D0F573922377B2700145672 /* Xib */,
 				9D0F572522374CE800145672 /* map_pin@2x.png */,
 				9D0F572622374CE800145672 /* map_pin@3x.png */,
-				9D0F571722374A1000145672 /* AddressTitleTableViewCell.xib */,
-				9D0F5711223749A200145672 /* MapAddressViewController.xib */,
 			);
 			path = Assets;
 			sourceTree = "<group>";
@@ -166,6 +165,15 @@
 				9D0F571A22374ADB00145672 /* UIScrollView+EmptyDataSet.m */,
 			);
 			path = Other;
+			sourceTree = "<group>";
+		};
+		9D0F573922377B2700145672 /* Xib */ = {
+			isa = PBXGroup;
+			children = (
+				9D0F571722374A1000145672 /* AddressTitleTableViewCell.xib */,
+				9D0F5711223749A200145672 /* MapAddressViewController.xib */,
+			);
+			path = Xib;
 			sourceTree = "<group>";
 		};
 		ABF30D7EACE54369B000277A /* Pods */ = {
