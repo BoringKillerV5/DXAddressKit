@@ -19,7 +19,6 @@
 		9D0F571822374A1000145672 /* AddressTitleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D0F571722374A1000145672 /* AddressTitleTableViewCell.xib */; };
 		9D0F571C22374ADC00145672 /* UIScrollView+EmptyDataSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0F571A22374ADB00145672 /* UIScrollView+EmptyDataSet.m */; };
 		9D0F571D22374ADC00145672 /* UIScrollView+EmptyDataSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D0F571B22374ADC00145672 /* UIScrollView+EmptyDataSet.h */; };
-		9D0F571F22374AF800145672 /* DeXianDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D0F571E22374AF800145672 /* DeXianDefine.h */; };
 		9D0F572222374B0C00145672 /* UIView+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0F572022374B0C00145672 /* UIView+Common.m */; };
 		9D0F572322374B0C00145672 /* UIView+Common.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D0F572122374B0C00145672 /* UIView+Common.h */; };
 		9D0F572722374CE800145672 /* map_pin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D0F572522374CE800145672 /* map_pin@2x.png */; };
@@ -51,7 +50,6 @@
 		9D0F571722374A1000145672 /* AddressTitleTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddressTitleTableViewCell.xib; sourceTree = "<group>"; };
 		9D0F571A22374ADB00145672 /* UIScrollView+EmptyDataSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+EmptyDataSet.m"; sourceTree = "<group>"; };
 		9D0F571B22374ADC00145672 /* UIScrollView+EmptyDataSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+EmptyDataSet.h"; sourceTree = "<group>"; };
-		9D0F571E22374AF800145672 /* DeXianDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeXianDefine.h; sourceTree = "<group>"; };
 		9D0F572022374B0C00145672 /* UIView+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Common.m"; sourceTree = "<group>"; };
 		9D0F572122374B0C00145672 /* UIView+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Common.h"; sourceTree = "<group>"; };
 		9D0F572522374CE800145672 /* map_pin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map_pin@2x.png"; sourceTree = "<group>"; };
@@ -160,7 +158,6 @@
 			children = (
 				9D0F572122374B0C00145672 /* UIView+Common.h */,
 				9D0F572022374B0C00145672 /* UIView+Common.m */,
-				9D0F571E22374AF800145672 /* DeXianDefine.h */,
 				9D0F571B22374ADC00145672 /* UIScrollView+EmptyDataSet.h */,
 				9D0F571A22374ADB00145672 /* UIScrollView+EmptyDataSet.m */,
 			);
@@ -196,7 +193,6 @@
 				9D0F570F2237499500145672 /* MapAddressViewController.h in Headers */,
 				9D0F571D22374ADC00145672 /* UIScrollView+EmptyDataSet.h in Headers */,
 				9D0F571622374A0B00145672 /* AddressTitleTableViewCell.h in Headers */,
-				9D0F571F22374AF800145672 /* DeXianDefine.h in Headers */,
 				9D0F572322374B0C00145672 /* UIView+Common.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

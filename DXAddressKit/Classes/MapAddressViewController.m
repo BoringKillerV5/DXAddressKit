@@ -8,7 +8,6 @@
 
 #import "MapAddressViewController.h"
 #import "AddressTitleTableViewCell.h"
-#import "DeXianDefine.h"
 #import "UIView+Common.h"
 #import "UIScrollView+EmptyDataSet.h"
 #import <AMapNaviKit/AMapNaviKit.h>
@@ -217,20 +216,20 @@
 }
 - (UIView *)customViewForEmptyDataSet:(UIScrollView *)scrollView{
     UIView *view = [[UIView alloc]init];
-    view.bounds =CGRectMake(0, 0, WIDTH, HEIGHT);
-    UIImageView *image = [[UIImageView alloc] initWithFrame:CGRectMake((WIDTH-130)/2, -200, 130, 130/13*16)];
+    view.bounds =CGRectMake(0, 0, UIScreen.mainScreen.bounds.size.width, UIScreen.mainScreen.bounds.size.height);
+    UIImageView *image = [[UIImageView alloc] initWithFrame:CGRectMake((UIScreen.mainScreen.bounds.size.width-130)/2, -200, 130, 130/13*16)];
     image.image = [UIImage imageNamed:@"吉祥物"];
     [view addSubview:image];
-    UILabel * title = [[UILabel alloc] initWithFrame:CGRectMake(0, image.bottom+30, WIDTH, 20)];
+    UILabel * title = [[UILabel alloc] initWithFrame:CGRectMake(0, image.bottom+30, UIScreen.mainScreen.bounds.size.width, 20)];
     title.text = @"暂未找到地址";
     title.textColor = [UIColor grayColor];
-    title.font = FontSize(16, 18);
+    title.font = [UIFont systemFontOfSize:18];
     title.textAlignment = NSTextAlignmentCenter;
     [view addSubview:title];
-    UILabel * title2 = [[UILabel alloc] initWithFrame:CGRectMake(0, title.bottom+20, WIDTH, 20)];
+    UILabel * title2 = [[UILabel alloc] initWithFrame:CGRectMake(0, title.bottom+20, UIScreen.mainScreen.bounds.size.width, 20)];
     title2.text = @"您可以试试其他的地址";
-    title2.textColor = warmGrey;
-    title2.font = FontSize(14, 16);
+    title2.textColor = [UIColor grayColor];
+    title2.font = [UIFont systemFontOfSize:16];
     title2.textAlignment = NSTextAlignmentCenter;
     [view addSubview:title2];
     return view;
@@ -240,7 +239,7 @@
     self.search.delegate = self;
     [AMapServices sharedServices].enableHTTPS = YES;
     
-    self.mapView = [[MAMapView alloc] initWithFrame:CGRectMake(0, IPhone_X_NAVHeight(kDevice_Is_iPhoneX), self.view.bounds.size.width, 190)];
+    self.mapView = [[MAMapView alloc] initWithFrame:CGRectMake(0, 64, self.view.bounds.size.width, 190)];
     
     self.mapView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
     
@@ -248,7 +247,7 @@
     _mapView.showsUserLocation = YES;
     _mapView.showsCompass= YES;
     _mapView.showsScale= YES;  //设置成NO表示不显示比例尺；YES表示显示比例尺
-    _mapView.compassOrigin = CGPointMake(WIDTH-100, 20);
+    _mapView.compassOrigin = CGPointMake(UIScreen.mainScreen.bounds.size.width-100, 20);
     [_mapView setZoomLevel:18 animated:YES];
     
     [self.mapContainerView addSubview:self.mapView];
@@ -289,7 +288,7 @@
         if (![searchStr isEqualToString:theTextField.text]) {
             AMapInputTipsSearchRequest *tips = [[AMapInputTipsSearchRequest alloc] init];
             tips.keywords = theTextField.text;
-            tips.city     = DEF_PERSISTENT_GET_OBJECT(@"CityName");
+            tips.city     = @"北京";
             tips.cityLimit = YES; //是否限制城市
             
             [self.search AMapInputTipsSearch:tips];
@@ -307,7 +306,7 @@
     MAPointAnnotation *a = [[MAPointAnnotation alloc] init];
     a.lockedToScreen = YES;
     a.title = @"屏幕中心坐标";
-    a.lockedScreenPoint = CGPointMake(WIDTH/2, 190/2);
+    a.lockedScreenPoint = CGPointMake(UIScreen.mainScreen.bounds.size.width/2, 190/2);
     [self.annotations addObject:a];
         
     
